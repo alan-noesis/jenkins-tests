@@ -9,7 +9,7 @@ public class RegressionTests extends BaseTests {
         actions.init(true);
 
         context.set("FIRST_NAME", "Alan");
-        context.set("LAST_NAME", "Alan");
+        context.set("LAST_NAME", "Silva");
         context.set("PASSWORD", "S7r0ngP4assW0rd");
 
         facebookPage.navigateTo();
